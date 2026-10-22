@@ -6,6 +6,17 @@
 или `latexmk`) либо **Tectonic** — самодостаточным движком, который можно
 установить прямо из приложения.
 
+## Скачать
+
+[Последний релиз](https://github.com/iaa2005/Texpad/releases/latest):
+
+- **Texpad_x.y.z_x64-setup.exe** — установщик (ставится в профиль пользователя,
+  права администратора не нужны).
+- **Texpad_x.y.z_x64-portable.zip** — портативная версия: распакуйте и
+  запустите `Texpad.exe`.
+
+Нужен Microsoft Edge WebView2 (есть в Windows 10/11).
+
 Интерфейс использует **SF Pro Text / SF Pro Display** для UI, **SF Mono** для
 редактора и **SF Symbols** для иконок. Шрифты лежат в `public/fonts` (WOFF2),
 символы — в `public/sfsymbols`.
