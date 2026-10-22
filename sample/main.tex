@@ -1,0 +1,46 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{makeidx}
+\makeindex
+
+\title{A Texpad Test Document}
+\author{Alex}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{Intro}
+Hello, world! This is a test of the Texpad workspace. See Live typeset works.
+Figure~\ref{fig:plot} and the classic reference \cite{knuth1984}.
+LaTeX\index{LaTeX} is a typesetting system.
+
+\begin{equation}
+  E = mc^2
+  \label{eq:energy}
+\end{equation}
+
+\input{section2}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.55\textwidth]{plot.png}
+  \caption{A generated test plot.}
+  \label{fig:plot}
+\end{figure}
+
+\section{Bibliography test}
+According to \cite{knuth1984}, TeX is fun. Lamport's book
+\cite{lamport1994} is the standard LaTeX reference.
+
+\bibliographystyle{plain}
+\bibliography{refs}
+
+\printindex
+
+\end{document}

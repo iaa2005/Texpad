@@ -1,0 +1,29 @@
+.texpad-hover-info {
+  max-width: 330px;
+  padding: 7px 10px;
+  font-size: 11.5px;
+  line-height: 1.45;
+  color: var(--text-primary);
+}
+
+.hover-info-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.hover-info-meta {
+  margin-top: 2px;
+  font-size: 10.5px;
+  color: var(--text-tertiary);
+  overflow-wrap: anywhere;
+}
+
+.hover-info-image {
+  display: block;
+  max-width: 280px;
+  max-height: 180px;
+  margin-top: 7px;
+  border-radius: 5px;
+  object-fit: contain;
+}

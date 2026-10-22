@@ -1,0 +1,12 @@
+node_modules
+dist
+dist-ssr
+*.local
+src-tauri/target
+src-tauri/gen
+.toolcheck
+.DS_Store
+
+research/
+.texpad/
+*.synctex.gz
