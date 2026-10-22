@@ -101,16 +101,6 @@ export default function Welcome() {
     <div className="welcome organiser-welcome">
       <div className="organiser-shell">
         <div className="organiser-left">
-          <div className="organiser-mark">
-            <img
-              className="organiser-mark-image"
-              src="/organiser-mark.png"
-              alt=""
-              draggable={false}
-            />
-          </div>
-          <div className="organiser-version">{t("Texpad for Windows v0.1.0 (1)")}</div>
-
           <div className="organiser-tabs">
             <button
               className={tab === "documents" ? "is-active" : ""}

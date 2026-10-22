@@ -36,47 +36,17 @@
   align-items: center;
   width: 44%;
   min-width: 340px;
-  padding: 24px 28px 22px;
+  padding: 11px 28px 22px;
   background: var(--organiser-bg);
   border-right: 1px solid var(--border-strong);
   overflow-y: auto;
 }
 
-.organiser-mark {
-  width: 210px;
-  height: 210px;
-  margin-top: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.organiser-mark-image {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  opacity: 0.44;
-  user-select: none;
-  pointer-events: none;
-}
-
-:root[data-theme="light"] .organiser-mark-image {
-  filter: invert(1);
-  opacity: 0.3;
-}
-
-.organiser-version {
-  margin-top: 7px;
-  font-size: 11.5px;
-  color: var(--text-tertiary);
-  text-align: center;
-  white-space: nowrap;
-}
-
 .organiser-tabs {
   display: flex;
   gap: 5px;
-  margin-top: 22px;
+  margin-top: 0;
+  margin-bottom: 18px;
 }
 
 .organiser-tabs button {
